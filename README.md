@@ -11,7 +11,7 @@ Design a single page application, using React with Redux, that contains the foll
     3. Your carousel should have a ‘Next’ button that will display the next gif when it is clicked.
         1. The Next button should be disabled when the user is viewing the last gif in the collection.
     4. Your carousel should have a ‘Previous’ button that will display the last gif the user viewed when it is clicked. 
-        2. The Previous button should be disabled if the user is viewing the first gif in the collection. 
+        1. The Previous button should be disabled if the user is viewing the first gif in the collection. 
     5. The Home page should fetch the gifs upon load. It should display some kind of loader component instead of the carousel while the data is being fetched.
     6. Your data and internal UI state should be managed in Redux. You can use any redux architecture strategy you prefer.
 3. Both pages should share a navigation bar that contains links to the Home page and the About page.
