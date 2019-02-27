@@ -20,7 +20,6 @@ Design a single page application, using React with Redux, that contains the foll
 - You can use any React CSS framework, such as Bootstrap, Material UI, Semantic UI, etc. for styling the UI, or no framework. 
 - You can use any async library to handle your API call, such as Fetch, Axios, ES7 async/await, etc.
 - You can use any async redux middleware to manage your redux async actions, such as redux thunk, redux-saga, etc.
-- We recommend using a React Quickstart repo like create-react-app to bootstrap your project. 
 
 #### Bonus Points:
 - Implementation of unit testing
