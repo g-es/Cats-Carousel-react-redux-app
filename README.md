@@ -14,14 +14,13 @@ Design a single page application, using React with Redux, that contains the foll
         1. The Previous button should be disabled if the user is viewing the first gif in the collection. 
     5. The Home page should fetch the gifs upon load. It should display some kind of loader component instead of the carousel while the data is being fetched.
     6. Your data and internal UI state should be managed in Redux. You can use any redux architecture strategy you prefer.
-3. Both pages should share a navigation bar that contains links to the Home page and the About page.
 
 #### Additional Notes:
-- You can use any React CSS framework, such as Bootstrap, Material UI, Semantic UI, etc. for styling the UI, or no framework. 
-- You can use any async library to handle your API call, such as Fetch, Axios, ES7 async/await, etc.
-- You can use any async redux middleware to manage your redux async actions, such as redux thunk, redux-saga, etc.
-- We recommend using a React Quickstart repo like create-react-app to bootstrap your project. 
+- The app has been bootstrapped with create-react-app and Redux already installed, and some Redux boilerplate already set up for you.
+- We have installed [Material UI](https://material-ui.com/getting-started/installation/) and [Semantic UI React](https://react.semantic-ui.com/usage) Frameworks for you to use for styling, but you can use any framework you wish, or none at all.  
+- We have installed [Axios](https://github.com/axios/axios) already but you can use any async library to handle your API call.
+- We have installed [Redux Thunk](https://github.com/reduxjs/redux-thunk) already and set up the middleware boilerplate for you to use it, but you can use any async redux middleware to manage your redux async actions that you like.
 
 #### Bonus Points:
-- Implementation of unit testing
+- A navigation bar that contains links to the Home page and About page, shared between both pages.
 - Graceful error handling of the API call
