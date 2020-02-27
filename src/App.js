@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
+import Home from './components/Home.jsx';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <div>
-          Your app goes here.
+        <div className="wholeApp">
+          <Home />
         </div>
       </div>
     )

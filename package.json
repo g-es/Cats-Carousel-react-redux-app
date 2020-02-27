@@ -1,5 +1,11 @@
 {
   "name": "takehome_exercise",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --hot --inline --progress --colors --watch --content-base ./",
+    "test": "jest --verbose"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,19 +17,35 @@
     "react-redux": "^6.0.1",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.5",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
     "semantic-ui-react": "^0.85.0"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-transform-async-to-generator": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "@babel/runtime": "^7.8.4",
+    "babel-jest": "^25.1.0",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jest": "^25.1.0",
+    "jest-puppeteer": "^4.4.0",
+    "prop-types": "^15.7.2",
+    "puppeteer": "^2.1.1",
+    "react-hot-loader": "^4.12.19",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "redux-devtools-extension": "^2.13.2",
+    "style-loader": "^0.19.0"
   },
   "browserslist": [
     ">0.2%",
