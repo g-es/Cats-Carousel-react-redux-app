@@ -14,6 +14,7 @@ import Img from './Image.jsx';
  */
 
 const Carousel = (props) => {
+  console.log(props, 'prp in carousel')
   const imageList = [];
   const { imgList, counter, prevFunc, nextFunc } = props;
   // for (let i = 0; i < props.imgList.length; i++) {
