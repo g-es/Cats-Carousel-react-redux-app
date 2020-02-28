@@ -1,5 +1,3 @@
-# Airmap Front End Take Home Exercise
-
 ### Objective
 
 Design a single page application, using React with Redux, that contains the following pages:
